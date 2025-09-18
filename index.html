@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Survival of the Fittest</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://esm.sh/three@0.180.0"
+        }
+      }
+    </script>
+    <script type="module">
+      import { main } from "./script/script.js";
+      main();
+    </script>
+    <canvas id="canvas"></canvas>
+  </body>
+</html>
